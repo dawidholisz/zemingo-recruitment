@@ -1,7 +1,7 @@
 import {configureStore} from "@reduxjs/toolkit";
-import {setupListeners} from "@rtk-incubator/rtk-query";
 
 import {storeApi} from "../api";
+import {setupListeners} from "@reduxjs/toolkit/query";
 
 export const store = configureStore({
     devTools: import.meta.env.DEV,
