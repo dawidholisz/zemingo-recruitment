@@ -1,0 +1,49 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  background-color: $colors-neutral-200;
+}
+
+.header{
+  align-items: center;
+  background-color: $colors-primary;
+  color: $colors-white;
+  display: flex;
+  gap: $spacing-1;
+  padding: $spacing-1 $spacing-2;
+
+  &__nav{
+    margin-left: auto;
+  }
+  &__nav-list{
+    display:flex;
+    gap: $spacing-2;
+    list-style: none;
+  }
+  .nav-link{
+    color: $colors-white;
+    display: inline-block;
+    padding: $spacing-1;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s;
+
+    &:hover{
+     color: $colors-secondary;
+    }
+  }
+}
+
+.main{
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  padding: $spacing-3 0;
+}
+
+.footer{
+  background-color: $colors-neutral-400;
+  padding: $spacing-2;
+}

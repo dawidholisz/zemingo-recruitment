@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-2;
+
+  &__error{
+    color: $colors-danger;
+  }
+}
