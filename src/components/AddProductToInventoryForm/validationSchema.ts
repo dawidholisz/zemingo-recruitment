@@ -6,5 +6,8 @@ export const addProductToInventorySchema = z.object({
     })
         .trim()
         .min(1,"Product name is required"),
-    quantity: z.number().positive("Quantity must be greater than 0").int()
+    quantity: z.number({
+        required_error: "Quantity is required",
+        invalid_type_error: "Quantity must be a number",
+    }).positive("Quantity must be greater than 0").int()
 })

@@ -4,7 +4,7 @@ import {useGetInventoryItemsQuery} from "../../api";
 import {useCallback, useEffect, useState} from "react";
 import {InventoryItem} from "../../types";
 
-const AddInventoryItemForm = () => {
+const AddInventoryItem = () => {
     const {data: inventoryItems = [], isFetching} = useGetInventoryItemsQuery()
     const [localItems, setLocalItems] = useState(inventoryItems)
 
@@ -31,4 +31,4 @@ const AddInventoryItemForm = () => {
     );
 };
 
-export default AddInventoryItemForm;
+export default AddInventoryItem;
