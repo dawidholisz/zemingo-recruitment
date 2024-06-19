@@ -1,1 +1,1 @@
-export {default} from "./AddInventoryItem.tsx";
+export { default } from './AddInventoryItem.tsx'

@@ -1,5 +1,5 @@
-import AddInventoryItem from "../components/AddInventoryItem";
+import AddInventoryItem from '../components/AddInventoryItem'
 
-const Homepage = () => <AddInventoryItem/>
+const Homepage = () => <AddInventoryItem />
 
-export default Homepage;
+export default Homepage

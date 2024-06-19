@@ -1,4 +1,4 @@
 export default {
-    homepage: "/",
-    addProduct: "/add-product",
+  homepage: '/',
+  addProduct: '/add-product',
 }

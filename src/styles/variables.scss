@@ -1,33 +1,39 @@
 //----- spacings (margins/paddings) ------------------------------------------------------------------------------------
-$spacing-1: .5rem;
+$spacing-1: 0.5rem;
 $spacing-2: 1rem;
 $spacing-3: 1.5rem;
 $spacing-4: 2rem;
 $spacing-5: 3rem;
 $spacing-6: 4rem;
 
-
 //----- border radiuses ------------------------------------------------------------------------------------------------
 $border-radius-base: 8px;
 $border-width-base: 2px;
 
 //----- breakpoints ----------------------------------------------------------------------------------------------------
-$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, 2xl: 1600px);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  2xl: 1600px,
+);
 $grid-columns: 12;
 
 //----- colors ---------------------------------------------------------------------------------------------------------
-$colors-primary: #829F3C;
+$colors-primary: #829f3c;
 $colors-primary-transparent: rgb(130 159 60 / 20%);
-$colors-secondary: #F55E00;
+$colors-secondary: #f55e00;
 $colors-secondary-transparent: rgb(245 94 0 / 20%);
-$colors-tertiary: #002B3B;
-$colors-danger: #E62A2A;
-$colors-danger-transparent: rgba($colors-danger, .2);
-$colors-white: #FFFFFF;
-$colors-neutral-200: #F8F7F7;
-$colors-neutral-300: #E1DEDB;
-$colors-neutral-400: #93877B;
-$colors-neutral-500: #5C544C;
+$colors-tertiary: #002b3b;
+$colors-danger: #e62a2a;
+$colors-danger-transparent: rgba($colors-danger, 0.2);
+$colors-white: #ffffff;
+$colors-neutral-200: #f8f7f7;
+$colors-neutral-300: #e1dedb;
+$colors-neutral-400: #93877b;
+$colors-neutral-500: #5c544c;
 
 $colors-primary-accessible: #667e30;
 $colors-secondary-accessible: #cc4e00;
@@ -42,6 +48,6 @@ $font-weight-semi-bold: 600;
 $font-weight-bold: bold;
 
 $font-size-base: 1rem;
-$font-size-sm: .875rem;
+$font-size-sm: 0.875rem;
 $font-size-lg: 1.5rem;
 $font-size-xl: 2rem;

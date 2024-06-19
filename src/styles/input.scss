@@ -1,12 +1,12 @@
-.input{
-    border: 1px solid #ccc;
-    padding: $spacing-1;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: $border-radius-base;
+.input {
+  border: 1px solid #ccc;
+  padding: $spacing-1;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: $border-radius-base;
 
-    &:focus{
-        outline: none;
-        border-color: $colors-secondary;
-    }
+  &:focus {
+    outline: none;
+    border-color: $colors-secondary;
+  }
 }

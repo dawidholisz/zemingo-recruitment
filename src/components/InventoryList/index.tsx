@@ -1,1 +1,1 @@
-export {default} from "./InventoryList";
+export { default } from './InventoryList'

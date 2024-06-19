@@ -3,6 +3,7 @@
 This is my solution for the recruitment task
 
 ## Tech Stack
+
     - React
     - Redux
     - RTK Query
@@ -14,6 +15,7 @@ This is my solution for the recruitment task
     - Vite
 
 ## App Setup Instructions
+
     - Clone the repository
     - Run `npm install` to install the dependencies
     - Copy the `.env.example` file and rename it to `.env`

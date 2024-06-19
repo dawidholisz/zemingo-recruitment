@@ -2,10 +2,10 @@
   background-color: $colors-white;
   padding: $spacing-3;
   border-radius: $border-radius-base;
-  box-shadow: 0 0 10px rgba($colors-neutral-500, .2);
+  box-shadow: 0 0 10px rgba($colors-neutral-500, 0.2);
   margin-bottom: $spacing-2;
 
-  &__title{
+  &__title {
     text-align: center;
     margin: 0 0 $spacing-2;
   }

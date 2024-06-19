@@ -1,1 +1,1 @@
-export * from "./storeApi"
+export * from './storeApi'

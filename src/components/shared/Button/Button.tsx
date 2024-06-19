@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
 export interface ButtonPropsType extends React.HTMLProps<HTMLButtonElement> {
-    type?: "button" | "submit" | "reset";
+  type?: 'button' | 'submit' | 'reset'
 }
-const Button = ({type,...props}:ButtonPropsType) => (
-    <button className="button" type={type || "button"} {...props} />
-);
+const Button = ({ type, ...props }: ButtonPropsType) => (
+  <button className="button" type={type || 'button'} {...props} />
+)
 
-export default Button;
+export default Button

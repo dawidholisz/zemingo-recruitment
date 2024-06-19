@@ -1,4 +1,4 @@
 export type InventoryItem = {
-    name: string,
-    quantity: number,
+  name: string
+  quantity: number
 }
